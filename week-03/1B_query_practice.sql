@@ -36,8 +36,8 @@ SELECT * FROM suppliers; -- Info on suppliers
 SELECT SupplierID, CompanyName from suppliers WHERE CompanyName = 'Tokyo Traders'; -- Specific Identifier for Tokyo Traders (4)
 SELECT ProductID, ProductName from products WHERE SupplierID = 4; -- All products from Tokyo Traders
 
--- How many employees work at northwind? What employees have "manager"
--- somewhere in their job title? Write queries to answer each question.
+-- 6. How many employees work at northwind? What employees have "manager"
+--    somewhere in their job title? Write queries to answer each question.
 
 SELECT COUNT(*) FROM employees; -- Total employees
 SELECT * FROM employees WHERE Title LIKE '%manager%'; -- Employees with "manager" in their title
