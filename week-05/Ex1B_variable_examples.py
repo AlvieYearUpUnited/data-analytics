@@ -14,7 +14,15 @@ myState = "NY"
 #1A
 
 import keyword
-print(*keyword.kwlist)
+print(keyword.kwlist)
+
+#1B 
+
+# 'if' = checks if the condition is true before executing code
+# 'True' = the condition is true
+# 'False' = the condition is false
+# 'else' = gives new code to follow if initial 'if' is not true
+# 'elif' = adds a second 'if' statement when first one is false
 
 
 
