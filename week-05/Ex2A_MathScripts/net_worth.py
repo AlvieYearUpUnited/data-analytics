@@ -1,20 +1,24 @@
 # Alvie Ahmed
-# Week 5 Exercise 2.A
+# Week 5 Exercise 2.A: Make calculations with Python
+# Lab 2, Question 1: Net Worth
 
 # -------------------------------------------------------------------------
 
 # 1. How do you calculate your net worth given your assets and debts? 
+
 # ---
 # a) Start by brainstorming: What are “assets” that would need to be  
 #    included in this calculation? What about “debts”?
 
 # Required assets to include: Liquid Cash, Property, Cars
 # Required debts to include: Credit Card, Mortgages, Auto Loans
+
 # ---
 # b) Discuss and figure out the formula and what the script would look  
 #    like, making up example values as needed.
 
-#    Example formula: net_worth = total_assets - total_debt
+# Example formula: net_worth = total_assets - total_debt
+
 # ---
 # c) Now create the script in a file named net_worth.py
 
@@ -35,5 +39,3 @@ net_worth = total_assets - total_debt
 print ('Your total assets are $' + format(total_assets, '.2f'))
 print ('Your total debts are $' + format(total_debt, '.2f'))
 print ('Your net worth is $' + format(net_worth, '.2f'))
-
-
