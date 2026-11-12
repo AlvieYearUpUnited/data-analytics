@@ -1,4 +1,6 @@
-
+# Alvie Ahmed
+# Week 5 Exercise 2.A: Make calculations with Python
+# Lab 1
 
 # Define known values
 food_cost = 79.25
@@ -11,7 +13,7 @@ total_due = food_cost + tax + tip
 # Display the results
 print ('The total due is ' + str(total_due))
 
-# 2a)   The str function converts the total_due float value into a string 
+# 2a)   The str function converts the total_due float value into a string
 #       so that it can be output with the rest of the string text within the
 #       print statement. The + operator cannot concatenate a string with
 #       a float variable.  
