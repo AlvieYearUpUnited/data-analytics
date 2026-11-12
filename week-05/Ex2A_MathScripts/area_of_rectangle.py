@@ -1,6 +1,11 @@
 # Alvie Ahmed
 # Week 5 Exercise 2.A: Make calculations with Python
 # Lab 2, Question 2: Area of Rectangle
+# ---
+
+# Lab 4: I used f-strings in my print statements when initially
+#        answering Lab 2
+
 
 
 # -------------------------------------------------------------------------
