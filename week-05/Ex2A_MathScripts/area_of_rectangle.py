@@ -6,6 +6,7 @@
 # -------------------------------------------------------------------------
 
 # 2. How do you calculate the area of a rectangle?
+
 # ---
 # a) Say you have a rectangle that has dimensions corresponding to your
 #    birthday – the month number is one side and the day of the month is
@@ -13,6 +14,7 @@
 #
 #    I would find the area by multiplying my birthday month number by 
 #    my birthday day_number.
+
 # ---
 # b) Figure out the formula and what the script would look like, and create 
 #    the script in a file named area_of_rectangle.py
