@@ -1,6 +1,15 @@
 # Alvie Ahmed
 # Week 5 Exercise 2.A: Make calculations with Python
 # Lab 2, Question 1: Net Worth
+# ---
+
+# Lab 3: Input values: 
+
+# One possible pitfall using input() is if the user enters the wrong data type 
+# For example, in this exercise, we are creating float variables. When a user
+# inputs text, the float() command is unable to convert it to a float number
+# and we recieve a ValueError which casues the script to stops running
+              
 
 # -------------------------------------------------------------------------
 
