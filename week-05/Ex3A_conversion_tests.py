@@ -12,9 +12,9 @@
 
 # 2. Define the following variables:
 
-a = " 101.1 " 
-b = '55' 
-c = "402 Stevens" 
+a = " 101.1 " # float variable
+b = '55' # integer variable
+c = "402 Stevens" # string variable
 d = 'Number 5 ' # string variable 
 
 print (type(a))
@@ -51,16 +51,16 @@ print (b_new, type(b_new))
 print (int(a_new)) # int(a_new): '101' due to variable being previously 
 #                                 casted as float
 print (int(b_new)) # int(b_new): '55'
-print (int(c_new)) # 'ValueError' due to containing letters 
-print (int(d_new)) # 'ValueError' due to containing letters 
+#print (int(c_new)) # 'ValueError' due to containing letters 
+#print (int(d_new)) # 'ValueError' due to containing letters 
 
 # ---
 # b) Cast as float using float()
 
 print(float(a_new)) # a_new: 101.1
 print(float(b_new)) # b_new: 55.0
-print(float(c_new)) # 'Value error' due to containing letter
-print(float(d_new)) # 'Value error' due to containing letter
+#print(float(c_new)) # 'Value error' due to containing letter
+#print(float(d_new)) # 'Value error' due to containing letter
 
                     # c_new, d_new: 'Value error' due to containing letter
 
