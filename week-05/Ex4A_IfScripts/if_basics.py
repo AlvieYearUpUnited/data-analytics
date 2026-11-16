@@ -4,6 +4,10 @@
 
 # -------------------------------------------------------------------------
 
+# 1. Create a new file named if_basics.py
+
+# 2. Create two starting variables:
+
 x = 100
 y = 20
 
@@ -52,8 +56,3 @@ else:
 #    (displaying the actual values in place of the blanks)
 
 print(f'The final value of x is {x} and the final value of y is {y}')
-
-
-
-
-          
