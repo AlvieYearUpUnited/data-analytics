@@ -1,6 +1,6 @@
 # Alvie Ahmed
 # Week 5 Exercise 3.B: Creating collections
-# Lab 1: 
+# Lab 1: Movie List
 
 # ----------------------------------------------------------------------------
 
