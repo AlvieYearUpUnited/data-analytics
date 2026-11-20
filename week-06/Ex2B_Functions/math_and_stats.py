@@ -16,23 +16,33 @@ radius = random.randint(3,10)
 pi = math.pi
 
 # Calculating sum, mean, median, of 75 random numbers
-print(f'\n_Experimenting with a subset of integers 1-100:')
-print(f'Sum of 75 sample values from 1 to 100: {math.fsum(vals_sample):.0f}') 
-print(f'Average of 75 sample values: {statistics.mean(vals_sample):.2f}')     
-print(f'Median of 75 sample values: {statistics.median(vals_sample)}\n')
+sum_75 = math.fsum(vals_sample)
+avg_75 = statistics.mean(vals_sample)
+med_75 = statistics.median(vals_sample)
 
 # Calculating average, median, mode, standard deviation, and variance
 # of 200 random numbers
-print(f'_Experimenting with a superset of 200 values, integers 1-100: ')
-print(f'Average of 200 values: {statistics.mean(vals_choices):.2f}')
-print(f'Median of 200 values: {statistics.median(vals_choices)}')
-print(f'Mode of 200 values: {statistics.mode(vals_choices)}')
-print(f'Standard deviation of 200 values: {statistics.stdev(vals_choices):.2f}')
-print(f'Variance of 200 values: {statistics.variance(vals_choices):.2f}\n')
+avg_200 = statistics.mean(vals_choices)
+med_200 = statistics.median(vals_choices)
+mode_200 = statistics.mode(vals_choices)
+stdev_200 = statistics.stdev(vals_choices)
+var_200 = statistics.variance(vals_choices)
 
 # Calculating circle's area
 area_up = (math.ceil(math.pi * math.pow(radius, 2)))
-area_down = (math.floor(math.pi * math.pow(radius, 2)))
+area_down = (math.floor(pi * math.pow(radius, 2)))
+
+print(f'\n_Experimenting with a subset of integers 1-100:')
+print(f'Sum of 75 sample values from 1 to 100: {sum_75:,.2f}') 
+print(f'Average of 75 sample values: {avg_75:.2f}')     
+print(f'Median of 75 sample values: {med_75}\n')
+
+print(f'_Experimenting with a superset of 200 values, integers 1-100: ')
+print(f'Average of 200 values: {avg_200:.2f}')
+print(f'Median of 200 values: {med_200}')
+print(f'Mode of 200 values: {mode_200}')
+print(f'Standard deviation of 200 values: {stdev_200:.2f}')
+print(f'Variance of 200 values: {var_200:.2f}\n')
 
 print(f'_Modeling a random circle:')
 print(f'Radius = {radius}, area = {area_up} (rounded up to the nearest integer)')
