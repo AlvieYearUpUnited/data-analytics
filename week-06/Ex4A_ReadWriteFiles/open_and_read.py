@@ -30,9 +30,9 @@ for i in range(1, 5):
 
 next_100 = f.readlines(100)
 
-print(f"First 50 characters: {first_50}")
-print(f"Next four lines, as list by line: {next_four_lines}")
-print(f"Next 100 characters, as list by line, rounded up to complete lines: {next_100}")
+print(f'First 50 characters: {first_50}')
+print(f'Next four lines, as list by line: {next_four_lines}')
+print(f'Next 100 characters, as list by line, rounded up to complete lines: {next_100}')
 
 f.close()
 
