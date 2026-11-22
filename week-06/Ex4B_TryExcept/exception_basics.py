@@ -38,9 +38,12 @@ finally:
 
 # SyntaxError
 try:
-    exec("if True print('Hello')")
+    exec("if True print('Hello')") # Attempting to run string as actual code
 except SyntaxError:
-    print(f'SyntaxError: Semicolon forgotten after if statement.')
+    print(f'SyntaxError: Colon forgotten after if statement.')
+else:
+    print('No SyntaxError!')
+
 finally:
     print(f'And we\'re done!')
     
